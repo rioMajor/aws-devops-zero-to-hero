@@ -13,7 +13,7 @@
       ],
       "Condition": {
         "StringNotEquals": {
-          "aws:PrincipalArn": "arn:aws:iam::229405096066:root"
+          "aws:PrincipalArn": "arn:aws:iam::229405096072:root"
         }
       }
     }
