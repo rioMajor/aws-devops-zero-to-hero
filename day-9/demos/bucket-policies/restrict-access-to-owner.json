@@ -8,12 +8,12 @@
       "Principal": "*",
       "Action": "s3:*",
       "Resource": [
-        "arn:aws:s3:::your-bucket-name/*",
-        "arn:aws:s3:::your-bucket-name"
+        "arn:aws:s3:::my-1st-s3bucket/*",
+        "arn:aws:s3:::my-1st-s3bucket"
       ],
       "Condition": {
         "StringNotEquals": {
-          "aws:PrincipalArn": "arn:aws:iam::AWS_ACCOUNT_ID:root"
+          "aws:PrincipalArn": "arn:aws:iam::229405096066:root"
         }
       }
     }
