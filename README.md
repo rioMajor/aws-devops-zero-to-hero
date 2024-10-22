@@ -85,6 +85,11 @@ This day introduces Infrastructure as Code (IaC) using AWS CloudFormation. You'l
 
 This day focuses on AWS CodeCommit, a managed source control service. You'll learn how to set up a Git repository in CodeCommit, collaborate with team members, and manage version control of your codebase.
 
+
+those who are doing this and getting error 403 follow these steps go to AWS Root User -> IAM -> Users -> Click on the user you created -> Click on Security Credentials Tab -> Scroll a little down, Till you see - "HTTPS Git credentials for AWS CodeCommit" -> Generate one -> Then use the credentials while using cloning it on terminal
+
+
+
 **Project:** You'll configure a CodeCommit repository for a team project, including setting up access control and collaboration workflows.
 
 ## Day 13: AWS CodePipeline
