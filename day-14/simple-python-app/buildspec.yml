@@ -20,7 +20,7 @@ phases:
    commands:
      - cd day-14/simple-python-app
      - echo "Building the docker images"
-     - docker build -t "$DOCKER_REGISTRY_URL/$DOCKER_REGISTRY_USERNAME/simple-python-flask-app:latest"
+     - docker build -t "simple-python-flask-app:latest"
      - docker push "$DOCKER_REGISTRY_URL/$DOCKER_REGISTRY_USERNAME/simple-python-flask-app:latest"
      
  post_build:
